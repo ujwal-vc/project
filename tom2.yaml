@@ -16,7 +16,7 @@
    # - name: changing remote source
    #    remote_src: yes
     - name: copy war
-        remote_src: yes
+   #     remote_src: yes
         copy: src=/home/ansible/example/addressbook.war dest=/var/lib/tomcat9/webapps/addressbook.war mode=0744
 
   
